@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: /3-tier-backend:9c0c2202ab1982510a16844cf45164327dd2e31e
+          image: dhaprako/3-tier-backend:43f48510f98c7f041865061cab12ef99a29514c5
           ports:
             - containerPort: 5000
           env:
