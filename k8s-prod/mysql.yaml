@@ -107,10 +107,9 @@ spec:
             name: mysql-initdb-config
   volumeClaimTemplates:
     - metadata:
-        name: mysql-storage
+        name: mysql-persistent-storage
       spec:
         accessModes: [ "ReadWriteOnce" ]
-        storageClassName: local-storage
         resources:
           requests:
             storage: 5Gi
