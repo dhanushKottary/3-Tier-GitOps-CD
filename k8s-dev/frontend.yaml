@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: dhaprako/3-tier-frontend:52903c8ea22fc5628cbd196c34c4364afe9b8073
+          image: dhaprako/3-tier-frontend:1.0.0-1.1-patch
           ports:
             - containerPort: 80
 ---
